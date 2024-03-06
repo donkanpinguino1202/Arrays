@@ -25,3 +25,5 @@ let subArray = arrayElementos.slice(1,3);
 let arrayString = arrayElementos.join(",")
 let subArrayNegativo = arrayElementos.slice(-2);
 let arrayModificado = [...arrayElementos.slice(0,1),...arrayElementos.slice(2)];
+let newElementos = ["y","x"];
+arrayDuplicados.unshift(...newElementos);
