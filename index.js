@@ -20,3 +20,4 @@ let longitudArray = arrayVacio.leght;
 finalArray.push("d");
 let ultimoElemento = finalArray.pop();
 principioArray.unshift("z")
+let primerElemento = principioArray.shift()
