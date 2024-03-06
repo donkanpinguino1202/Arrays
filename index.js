@@ -1,3 +1,5 @@
+//introduccion de los arrays//
+
 let arrayVacio = [];
 let arrayElementos = ["a","b","c"];
 let arrayTiposMixtos = ["x",7,"true"];
@@ -11,3 +13,7 @@ let array2 =["c","d"];
 let arrayCombinado =[...array1,...array2];
 let arrayDuplicados = ["a","b","b","c"];
 let arrayUnico = [...new Set(arrayDuplicados)];
+
+//metodos basicos de arrays//
+
+let longitudArray = arrayVacio.leght;
