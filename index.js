@@ -23,3 +23,4 @@ principioArray.unshift("z");
 let primerElemento = principioArray.shift();
 let subArray = arrayElementos.slice(1,3);
 let arrayString = arrayElementos.join(",")
+let subArrayNegativo = arrayElementos.slice(-2);
