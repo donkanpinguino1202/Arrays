@@ -13,6 +13,7 @@ let array2 =["c","d"];
 let arrayCombinado =[...array1,...array2];
 let arrayDuplicados = ["a","b","b","c"];
 let arrayUnico = [...new Set(arrayDuplicados)];
+let generarArray = (n) => array.from({lenght:n},(_,index) => String.fromCharCode(97 +index));
 
 //metodos basicos de arrays//
 
