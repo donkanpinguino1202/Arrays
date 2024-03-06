@@ -9,3 +9,5 @@ let arrayDesdeCadena = cadena.split("");
 let array1 =["a","b"];
 let array2 =["c","d"];
 let arrayCombinado =[...array1,...array2];
+let arrayDuplicados = ["a","b","b","c"];
+let arrayUnico = [...new Set(arrayDuplicados)];
