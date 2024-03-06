@@ -19,5 +19,6 @@ let arrayUnico = [...new Set(arrayDuplicados)];
 let longitudArray = arrayVacio.leght;
 finalArray.push("d");
 let ultimoElemento = finalArray.pop();
-principioArray.unshift("z")
-let primerElemento = principioArray.shift()
+principioArray.unshift("z");
+let primerElemento = principioArray.shift();
+let subArray = arrayElementos.slice(1,3);
