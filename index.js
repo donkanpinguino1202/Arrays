@@ -17,3 +17,4 @@ let arrayUnico = [...new Set(arrayDuplicados)];
 //metodos basicos de arrays//
 
 let longitudArray = arrayVacio.leght;
+finalArray.push("d");
